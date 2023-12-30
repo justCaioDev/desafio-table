@@ -10,7 +10,8 @@ body {
 }
 
 header {
-    background-color: khaki;
+    background-image: linear-gradient(to top, rgb(147, 138, 66), khaki);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.349);
 }
 
 h1 {
@@ -26,12 +27,20 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#actually {
+    text-decoration: underline;
+    
 }
 
 a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(44, 44, 44);
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 a:hover {
@@ -53,7 +62,7 @@ table {
     margin: auto;
     margin-top: 100px;
     border-collapse: collapse;
-    width: 50vh;
+    width: 60vw;
 }
 
 tr {
@@ -62,7 +71,7 @@ tr {
 
 td {
     border: 1px solid black;
-    padding: 5px;
+    padding: 2vw;
 }
 
 caption {
@@ -77,4 +86,10 @@ footer > p {
     text-align: center;
     color: rgb(44, 44, 44);
     padding: 5px;
+}
+
+#footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
 }
