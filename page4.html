@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table Challenge</title>
+</head>
+<body>
+    <header>
+        <h1>Table Challenge</h1>
+        <nav>
+            <a href="index.html" target="_self">Table 1</a>
+            <a href="page2.html" target="_self">Table 2</a>
+            <a href="page3.html" target="_self">Table 3</a>
+            <a href="page4.html" target="_self" id="actually">Table 4</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <table>
+                <caption>Table 4</caption>
+                <thead>
+                    <th id="grey" rowspan="2">Area</th>
+                    <th id="grey" rowspan="2">Disciplina</th>
+                    <th id="grey" colspan="2">Notas</th>
+                    <th id="grey" rowspan="2">Media</th>
+                    <tr>
+                        <th id="grey">Nota 1</th>
+                        <th id="grey">Nota 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <th rowspan="4">Exatas</th>
+                   <td class="name">Matematica</td>
+                   <td class="number">0.0</td>
+                   <td class="number">0.0</td>
+                   <td class="number">0.0</td>
+                   <tr>
+                    <td class="name">Fisica</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                   </tr>
+                   <tr>
+                    <td class="name">Quimica</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                   </tr>
+                   <tr>
+                    <td class="name">Biologia</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                   </tr>
+
+                   <th id="grey" class="media" colspan="4">Media de Exatas</th>
+                   <th id="grey">0.0</th>
+
+                   <tr>
+                    <th rowspan="2">Historia</th>
+                    <td class="name">Biologia</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                   </tr>
+                   <tr>
+                    <td class="name">Geografia</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                    <td class="number">0.0</td>
+                   </tr>
+
+                   <th id="grey" class="media" colspan="4">Media de Humanas</th>
+                   <th id="grey">0.0</th>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by <a href="https://github.com/JustCaioDev" target="_blank">Caio Azevedo</a> for Curso em Video by Gustavo Guanabara.</p>
+    </footer>
+</body>
+</html>

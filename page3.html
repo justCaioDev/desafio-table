@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Table Challenge</title>
+</head>
+<body>
+    <header>
+        <h1>Table Challenge</h1>
+        <nav>
+            <a href="index.html" target="_self">Table 1</a>
+            <a href="page2.html" target="_self">Table 2</a>
+            <a href="page3.html" target="_self" id="actually">Table 3</a>
+            <a href="page4.html" target="_self">Table 4</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <table>
+                <caption>Table 3</caption>
+                <thead>
+                    <th scope="col">Grupo</th>
+                    <th scope="col">Nomes</th>
+                    <th colspan="3" scope="colgroup">Filmes</th>
+                </thead>
+
+                <tbody>
+                   <tr>
+                    <th rowspan="3" scope="rowgroup">Mulheres</th>
+                    <td class="name">Ana Maria Santos</td>
+                    <td class="movie">Alien</td>
+                    <td class="movie">Rambo</td>
+                    <td class="movie">Vingadores</td>
+                   </tr>
+                   <tr>
+                    <td class="name">Beatriz Souza</td>
+                    <td class="movie">Hulk</td>
+                    <td class="movie">Inception</td>
+                    <td class="movie">Batman</td>
+                   </tr>
+                   <tr>
+                    <td class="name">Claudia Melo</td>
+                    <td class="movie">Oblivion</td>
+                    <td class="movie">Matrix</td>
+                    <td class="movie">Big Hero</td>
+                   </tr>
+                   <tr>
+                    <th rowspan="3" scope="rowgroup">Homens</th>
+                    <td class="name">Bruno Mendoca</td>
+                    <td class="movie">Introcaveis</td>
+                    <td class="movie">Amnesia</td>
+                    <td class="movie">Gladiador</td>
+                   </tr>
+                   <tr>
+                    <td class="name">Daniel Lourenco</td>
+                    <td class="movie">Wall-E</td>
+                    <td class="movie">Oldboy</td>
+                    <td class="movie">Dangal</td>
+                   </tr>
+                   <tr>
+                    <td class="name">Fabiano Mota</td>
+                    <td class="movie">Star Wars 5</td>
+                    <td class="movie">Taxi Driver</td>
+                    <td class="movie">Toy Story</td>
+                   </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by <a href="https://github.com/JustCaioDev" target="_blank">Caio Azevedo</a> for Curso em Video by Gustavo Guanabara.</p>
+    </footer>
+</body>
+</html>
